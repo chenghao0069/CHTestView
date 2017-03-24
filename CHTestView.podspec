@@ -9,6 +9,7 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, "8.0"
   s.source       = { :git => "https://github.com/chenghao0069/CHTestView.git", :tag => "0.1.0" }
+  s.public_header_files = "Pods/Masonry/Masonry/Masonry.h"
   s.source_files  = "CHTestView", "CHTestView/*.{h,m}"
   s.framework  = "UIKit"
 
